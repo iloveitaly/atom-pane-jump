@@ -1,0 +1,19 @@
+# Keybindings require three things to be fully defined: A selector that is
+# matched against the focused element, the keystroke and the command to
+# execute.
+#
+# Below is a basic keybinding which registers on all platforms by applying to
+# the root workspace element.
+
+# For more detailed documentation see
+# https://atom.io/docs/latest/behind-atom-keymaps-in-depth
+'atom-workspace':
+  'ctrl-1': 'pane-jump:go-to-pane-1'
+  'ctrl-2': 'pane-jump:go-to-pane-2'
+  'ctrl-3': 'pane-jump:go-to-pane-3'
+  'ctrl-4': 'pane-jump:go-to-pane-4'
+  'ctrl-5': 'pane-jump:go-to-pane-5'
+  'ctrl-6': 'pane-jump:go-to-pane-6'
+  'ctrl-7': 'pane-jump:go-to-pane-7'
+  'ctrl-8': 'pane-jump:go-to-pane-8'
+  'ctrl-9': 'pane-jump:go-to-pane-9'
